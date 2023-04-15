@@ -1,0 +1,118 @@
+body {
+  background-color: #C8BA93;
+}
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+.navbar-custom {
+  background-color: #283044;
+  color: whitesmoke;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding-right: 15px;
+  z-index: 100;
+}
+
+#hero-section {
+  background-image:
+    linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)),
+    url(/img/horizontal.png);
+/*   background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+/*   background-attachment: fixed; */
+  height: 100vh;
+/*   width: 100%; */
+/*   padding: 300px; */
+  padding: 20%;
+  overflow: hidden;
+}
+
+.name_and_title {
+  background-color: rgba(40, 48, 68, .90);
+  color: whitesmoke;
+}
+
+.introduction {
+  position: absolute;
+  left: 50%;
+  top:25vh;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#name {
+  margin: auto;
+}
+
+.avatar {
+  height: 300px;
+  width: 300px;
+  border: solid rgba(40, 48, 68, 1) 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background:rgba(0, 0, 0, 0.3));
+}
+
+#inspiration-section {
+  padding-bottom: 50px;
+}
+
+.social-icon {
+/*   padding-left: 10%; */
+}
+
+a {
+  display: inline-block;
+}
+
+.card, .card-header {
+  background-color: transparent;
+}
+
+#meet_me_text {
+  display: inline-block;
+}
+
+#mission_pic {
+  border-radius: 5%;
+}
+
+#mission-target,
+#skills-target,
+#inspiration-target,
+#contact-target {
+  position: relative;
+  top: -50px;
+}
+
+/* .icon:hover { */
+/*   color: #fafafa; */
+/* } */
+
+.social-icon:hover{
+  color:#26534a !important;
+}
