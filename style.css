@@ -104,6 +104,7 @@ a {
 #mission-target,
 #skills-target,
 #inspiration-target,
+#project-target,
 #contact-target {
   position: relative;
   top: -50px;
@@ -115,4 +116,12 @@ a {
 
 .social-icon:hover{
   color:#26534a !important;
+}
+
+#simpsons-thumbnail {
+  transition: .6s ease;
+}
+
+#simpsons-thumbnail:hover {
+  opacity: .80;
 }
